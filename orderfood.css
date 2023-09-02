@@ -1,3 +1,55 @@
+body{
+    margin: 10px;
+    background-color: rgb(239, 213, 179);
+}
+header{
+    background-color: beige;
+    border: 4px black solid;
+}
+h6{
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 0;
+    margin-left: 0.6cm;
+
+}
 h1{
-    color: rgb(240, 126, 19);
+    color: rgb(82, 0, 188);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    text-shadow: 2px orangered;
+    margin-left: 0.5cm;
+    margin-top: 0.1cm;
+    margin-bottom: 0;
+
+/*    
+    padding: 5px;
+*/
+}
+a{
+    color: rgb(0, 0, 65);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    
+
+}
+a:hover{
+    color: brown;
+}
+nav{
+    position: absolute;
+    top: 2cm;
+    bottom: 0;
+
+    right: 0.2cm;
+    margin: 10px;
+
+}
+button{
+    cursor: pointer;
+}
+.intro{
+    margin-left: 0.5cm;
 }

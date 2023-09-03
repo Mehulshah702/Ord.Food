@@ -10,21 +10,16 @@ h6{
     font-size: 15px;
     font-family: cursive;
     margin-top: 0;
-    margin-left: 0.6cm;
-
+    margin-left: 0.8cm;
 }
 h1{
     color: rgb(82, 0, 188);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: solid;
     text-shadow: 2px orangered;
-    margin-left: 0.5cm;
-    margin-top: 0.1cm;
+    margin-left: 0.7cm;
+    margin-top: 0.4cm;
     margin-bottom: 0;
-
-/*    
-    padding: 5px;
-*/
 }
 a{
     color: rgb(0, 0, 65);
@@ -32,8 +27,6 @@ a{
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    
-
 }
 a:hover{
     color: brown;
@@ -42,14 +35,60 @@ nav{
     position: absolute;
     top: 2cm;
     bottom: 0;
-
     right: 0.2cm;
     margin: 10px;
-
 }
 button{
     cursor: pointer;
 }
 .intro{
     margin-left: 0.5cm;
+}
+section.img {
+    width: 100%; 
+    overflow-x: auto;
+    white-space: nowrap; 
+}
+img.photo {
+    display: inline-block; 
+    margin-right: 10px; 
+    width: 400px;
+}
+.cuisine{
+    margin: 20px;
+    padding: 10px;
+    border: 2px black solid;
+    display: inline-block;
+
+}
+.cuisine-item{
+    border: 2px black solid;
+    width: 300px;
+    
+}
+
+.cuisine {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap; 
+}
+
+.cuisine-item{
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+    padding: 10px; 
+    border: 1px solid rgb(12, 9, 9); 
+    min-width: 250px; 
+    background-color: rgb(249, 217, 217);
+}
+.cuisine-item h3 {
+    margin: 0;
+}
+
+.cuisine-item ol {
+    padding-left: 20px;
+}
+
+.cuisine-item ol li {
+    margin: 5px 0;
 }

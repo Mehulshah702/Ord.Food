@@ -56,8 +56,14 @@
                 <li>Marathi Spicy Food</li>
             </ol>
         </div>
+        <script>
+            var myDiv = document.getElementById("indian");
+            myDiv.addEventListener("click", function() {
+                window.location.href = "https://www.indianstreetfood.com/";
+            });
+          </script>
         <br>
-        <div id="italian" class="cuisine-item">
+        <div id="italian" class="cuisine-item" >
             <h3>Italian</h3>
             <ol>
                 <li>Pasta</li>
@@ -79,24 +85,36 @@
     </section>
     <section class="feedback">
         <div id="feedback-form">
-            <h3>Feedbacks</h3>
+            <h3 style="font-size: 56px;">Feedbacks</h3>
+            <br>
             <form action="./portfolio.html" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-    
+
+                <br>
+
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email" required>
+
+                <br>
+
                 <label for="contact">Contact:</label>
                 <input type="number" id="contact" name="contact" required>
+
+                <br>
     
                 <label>Gender:</label>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label>
-    
+
+                <br>
+
                 <label for="birthdate">Birthdate:</label>
                 <input type="date" id="birthdate" name="birthdate">
+
+                <br>
     
                 <label for="interests">Interested Cuisine:</label>
                 <select id="interests" name="interests" multiple>
@@ -104,14 +122,21 @@
                     <option value="movies">Italian</option>
                     <option value="books">Chinese</option>
                 </select>
+
+                <br>
     
                 <label for="comments">Comments:</label>
                 <textarea id="comments" name="comments" rows="4"></textarea>
-    
+
+                <br>
+
                 <label for="subscribe">Subscribe to newsletter:</label>
                 <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-    
-                <input type="submit" value="Submit">
+                
+                <br><br>
+
+                <button id="submit">SUBMIT</button>
+
             </form>
         </div>
     </section>

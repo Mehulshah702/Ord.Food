@@ -64,23 +64,28 @@ img.photo {
 .cuisine-item{
     border: 2px black solid;
     width: 300px;
-    
+}
+
+#indian{
+    cursor: pointer;
 }
 
 .cuisine {
     display: flex;
-    overflow-x: auto;
-    white-space: nowrap; 
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
 }
 
 .cuisine-item{
-    flex: 0 0 auto; 
-    margin-right: 20px; 
-    padding: 10px; 
-    border: 1px solid rgb(12, 9, 9); 
-    min-width: 250px; 
-    background-color: rgb(249, 217, 217);
+    flex: 0 0 auto; /* Prevent items from stretching */
+    margin-right: 20px; /* Adjust the margin between items as needed */
+    padding: 10px; /* Add some padding for spacing */
+    border: 1px solid rgb(12, 9, 9); /* Add a border for visual separation */
+    min-width: 250px; /* Set a minimum width for each cuisine item */
+    background-color: rgb(249, 217, 217); /* Background color for each item */
 }
+
+/* Style the headings and list items within each cuisine item */
 .cuisine-item h3 {
     margin: 0;
 }
@@ -89,6 +94,32 @@ img.photo {
     padding-left: 20px;
 }
 
+
 .cuisine-item ol li {
     margin: 5px 0;
+}
+
+#feedback-form form{
+    border: 2px black solid;
+    width: 25%;
+    font-size: larger;
+    margin-left: 35%;
+    padding-left: 5%;
+    padding-right: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+}
+
+.feedback h3{
+    text-align: center;
+}
+#submit{
+    margin-left: 30%;
+    padding: 3%;
+    background-color: rgb(7, 90, 199);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
 }
